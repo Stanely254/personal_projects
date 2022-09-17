@@ -26,7 +26,8 @@ class MyApp extends StatelessWidget {
           floatingActionButtonTheme: const FloatingActionButtonThemeData(
               backgroundColor: AppColors.buttonColor),
           textButtonTheme: TextButtonThemeData(
-              style: TextButton.styleFrom(primary: AppColors.lightTextColor)),
+              style: TextButton.styleFrom(
+                  foregroundColor: AppColors.lightTextColor)),
           tabBarTheme: const TabBarTheme(
               indicator: UnderlineTabIndicator(
                   borderSide: BorderSide(width: 3, color: AppColors.orange)),
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
           elevatedButtonTheme: ElevatedButtonThemeData(
               style: ElevatedButton.styleFrom(
                   minimumSize: const Size(100, 50),
-                  primary: AppColors.buttonColor,
+                  backgroundColor: AppColors.buttonColor,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30))))),
       theme: ThemeData(
